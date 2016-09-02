@@ -1,0 +1,21 @@
+1.新しいプロジェクトを作成する。（設定はデフォルトのままでよい）
+
+2.EmojidexAndroidLibraryを読み込む。
+	(ProjectDir)/app/build.gradle
+	1.png　23行目、31行目
+
+3.アプリのレイアウトを編集する。
+	(ProjectDir)/app/src/main/res/layout/activity_main.xml
+	2.png　2～24行目
+
+4.Emojidexを導入する。
+	4-1.Emojidexを初期化する。
+		(ProjectDir)/app/src/main/java/(PackageName)/(ProjectName)/MainActivity.java
+		3.png　20～21行目、24～34行目
+		4.png　40行目
+	4-2.テキストボックスに絵文字化したテキストを表示する。
+		4.png　42～45行目
+	4-3.テキストボックスに入力した文字を絵文字に変換する。
+		4.png　47～72行目
+5.実行する。
+
